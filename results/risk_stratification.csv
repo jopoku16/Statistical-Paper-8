@@ -1,0 +1,4 @@
+risk_group,n,aki_rate,mean_prob
+High Risk,1364,0.48,0.467
+Low Risk,5674,0.012,0.017
+Uncertain,620,0.118,0.107

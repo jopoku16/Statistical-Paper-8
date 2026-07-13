@@ -1,0 +1,15 @@
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+main.pdf
+cover_letter.pdf
+__pycache__/
+*.pyc

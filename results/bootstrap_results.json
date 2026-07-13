@@ -1,0 +1,48 @@
+{
+  "models": {
+    "Logistic Regression": {
+      "AUC": 0.8992,
+      "CI_lo": 0.8906,
+      "CI_hi": 0.9075
+    },
+    "Random Forest": {
+      "AUC": 0.9058,
+      "CI_lo": 0.8991,
+      "CI_hi": 0.9123
+    },
+    "Gradient Boosting": {
+      "AUC": 0.9276,
+      "CI_lo": 0.922,
+      "CI_hi": 0.933
+    },
+    "XGBoost": {
+      "AUC": 0.9347,
+      "CI_lo": 0.9298,
+      "CI_hi": 0.9399
+    },
+    "LightGBM": {
+      "AUC": 0.933,
+      "CI_lo": 0.9278,
+      "CI_hi": 0.9379
+    },
+    "MLP": {
+      "AUC": 0.865,
+      "CI_lo": 0.854,
+      "CI_hi": 0.8756
+    }
+  },
+  "conformal_bootstrap": {
+    "marginal_coverage": 0.9192,
+    "marginal_CI": [
+      0.9157,
+      0.9231
+    ],
+    "cc_aki_coverage": 0.8814,
+    "cc_aki_CI": [
+      0.8656,
+      0.8976
+    ]
+  },
+  "best_model": "XGBoost",
+  "n_bootstrap": 1000
+}
