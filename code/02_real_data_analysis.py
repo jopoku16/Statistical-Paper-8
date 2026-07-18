@@ -29,7 +29,7 @@ from sklearn.metrics import (
 from sklearn.calibration import CalibratedClassifierCV, calibration_curve
 from sklearn.impute import SimpleImputer
 
-ROOT = Path(r"C:\Users\19565\Desktop\Statistical Paper 8")
+ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 FIG  = ROOT / "figures"
 RES  = ROOT / "results"

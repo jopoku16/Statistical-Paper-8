@@ -28,7 +28,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import json, os, time
 
-OUT = r"C:\Users\19565\Desktop\Statistical Paper 8"
+OUT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIG = os.path.join(OUT, "figures")
 RES = os.path.join(OUT, "results")
 
